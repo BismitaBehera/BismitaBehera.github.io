@@ -4,9 +4,8 @@
 2. [Content](#contents)
 3. [Modules](#modules)
 4. [Technologies](#technologies)
-5. [HTML Elements used](#html-elements-used)
-6. [Additional guidlines followed](#additional-guidlines-followed)
-7. [Copyrights](#copyrights)
+5. [Bootstrap components used](#Bootstrap-components-used)
+6. [Copyrights](#copyrights)
 
 ## Introduction
 
@@ -18,9 +17,10 @@
 ***
 This project folder must have following contents :
 
-* Images (*contains 6 Images*)
-* index.html , certjava.html, certstr.html, certsql.html and login.html
-* default.css
+* Images and Gifs (*contains 12 Images and 13 Gifs*)
+* index.html , portfolio-details.html, certjava.html, certstr.html, certsql.html
+* main.js
+* style.css, bootstrap-icons.css
 * README.md, README.txt
 * resume.pdf
 
@@ -40,52 +40,26 @@ A list of technologies used within the project:
 
 * [HTML5](https://developer.mozilla.org/en-US/docs/Glossary/HTML5)
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+* [Bootstrap](https://getbootstrap.com/docs/5.1/components)
 
-## HTML Elements used
+## Bootstrap components used
 
 ***
-Following are the few major elements used in this project :
+Following are the few components used in this project :
 
-* [Favicon](https://www.w3.org/2005/10/howto-favicon) 
-* [Form](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form) 
-* [Button](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button) 
-* [Image](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img) 
-* [Hyperlink aka anchor](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a) 
-* [Footer] (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer)
-* [Header] (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header)
-* [Navigation] (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav)
-* [Section] (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section)
-* [Division_element] (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div)
+* [Button]: Line 703 & 704 btn btn-outline-success and btn btn-outline-secondary is used. 
+* [Alerts]: Function has been added in the main.js file and in the Button 703.
+* [Breadcrumbs]: It is implemented in portfolio-details.html page.
+* [Cards]: Implemented in index.html under Certificates Section. 
+* [Carousel]: Implemented both in index.html and portfolio-details.html pages.
+* [Navbar]: Implemented both in index.html and portfolio-details.html pages.
+* [Dropdowns]: Implemented in navbar in the index.html page.
+* [Progress]: Implemented in index.html under skills section.
+* [Scroll spy]: Implemented in navbar in both index.html and portfolio-details.html pages.
+* [Tooltip]: By hovering in resume the tooltip feature would be seen.Implementation is done in the header of index.html and portfolio-details.html pages.
 
   (*Few other common elements like div, link, etc.,*)
 
-## Additional Guidlines followed
-
-***
-* Use an external CSS file : *default.css used*
-
-* Use of float/overflow property : 
-      *overflow (hidden and visible) used for certificates and background section in default.css file.*
-      *float left and hidden property is used in the body and header section inside the default.css file.*
-
-* Use of column layout structure :
-      *It is used #Background and #Certificates section*
-
-* use of absolute/relative position whenever necessary. :
-      *absolute position is used for certificate section and relative position is used in the body and header which defined in default.css file*
-
-* use of tel, mailto option for contact information :
-      *a form is created for the same.*
-
-* If you add any table then style the table using CSS selectors. Guide for CSS Selectors - http://www.w3schools.com/cssref/css_selectors.asp : *NA*
-
-* Create a professional image gallery for certifications etc. with hover effects and figure captions. Include this in your portfolio. : *Included*
-
-* Use the HTML and html5 elements throughout. : *Please refer ## HTML Elements used section* 
-
-* Make the website responsive using media queries for devices like IPad(768px) and Smartphones (350 – 365px). For example, the below pic is a sample. : *Implemented*
-
-* Include the readme.txt and include all the tags used. : *Included in README.md and README.txt files*
 
 ## Copyrights
 
@@ -94,3 +68,4 @@ Following are the few major elements used in this project :
 ```text
 This is my personal portfolio and all the resources used for building this website is referred from google and various other resources.
 ```
+
